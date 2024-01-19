@@ -64,7 +64,6 @@ function Form() {
   );
 
   async function handleSubmit(e) {
-    console.log(e);
     e.preventDefault();
     const newCity = {
       cityName,
